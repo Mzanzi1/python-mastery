@@ -1,11 +1,10 @@
+# Week 1 – Lesson 3
+
 name = input("What is your name? ")
-age = int(input("What is your age? "))
+sessions = int(input("How many study sessions do you want?"))
 
 print("Hello", name)
+print("Let's count your study sessions.")
 
-if age < 13:
-    print("You are a child.")
-elif age < 18:
-    print("You are a teenager.")
-else:
-    print("You are an adult.")
+for i in range(sessions):
+    print("Study session", i + 1)
