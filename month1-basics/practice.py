@@ -21,3 +21,6 @@ print("Division:", a / b)
 years = 10
 total_study_hours = years * 52 * hours_per_week
 print("If I stay consistent, I will study", total_study_hours, "hours in 5 years.")
+print (type(name))
+print (type(hours_per_week))
+print (type(a / b))
