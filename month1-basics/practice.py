@@ -1,26 +1,11 @@
-# Week 1 - Lesson 1
+# Week 1 - Lesson 2
 
-# Variables
-name = "Gordon"
-goal = "Data Analysis and Automation"
-hours_per_week = 3
-print("My name is", name)
-print("My goal is", goal)
-print("I can study", hours_per_week, "hours per week")
+name = input("What is your name? ")
+age = int(input("What is your age? "))
 
-# Math operations
-a = 15
-b = 4
+print("Hello", name)
 
-print("Addition:", a + b)
-print("Subtraction:", a - b)
-print("Multiplication:", a * b)
-print("Division:", a / b)
-
-# Challenge
-years = 10
-total_study_hours = years * 52 * hours_per_week
-print("If I stay consistent, I will study", total_study_hours, "hours in 5 years.")
-print (type(name))
-print (type(hours_per_week))
-print (type(a / b))
+if age >= 18:
+    print("You are eligible.")
+else:
+    print("You are not eligible yet.")
