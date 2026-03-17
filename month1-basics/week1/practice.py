@@ -11,4 +11,4 @@ for i in range(7):
 average = total_hours / 7
 
 print("Total hours studied:", total_hours)
-print("Average hours per day:", average)
+print("Average hours per day:", round(average, 2))
