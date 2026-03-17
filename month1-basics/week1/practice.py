@@ -1,14 +1,16 @@
-# Week 1 – Mini Program
+# Week 2 – Lesson 1
 
-print("Weekly Study Analyzer")
+print("Weekly Study Analyzer (List Version)")
 
-total_hours = 0
+hours_list = []
 
 for i in range(7):
     hours = float(input(f"Enter study hours for day {i + 1}: "))
-    total_hours = total_hours + hours
+    hours_list.append(hours)
 
-average = total_hours / 7
+total_hours = sum(hours_list)
+average = total_hours / len(hours_list)
 
 print("Total hours studied:", total_hours)
 print("Average hours per day:", round(average, 2))
+print("Daily entries:", hours_list)
